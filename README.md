@@ -9,3 +9,10 @@ repr(int) #class 'int'
 type(i) is int #true
 type(i)(78) #78
 ```
+
+```
+i.__class__ #int
+i.__class__.__class__ #type
+i.__class__.__class__.__class__ #type
+issubclass(type,object) #True
+```
