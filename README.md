@@ -16,3 +16,16 @@ i.__class__.__class__ #type
 i.__class__.__class__.__class__ #type
 issubclass(type,object) #True
 ```
+
+
+### 2. Introspecting Objects
+```
+i = 7
+dir(i)
+getattr(i,'denominator')
+a.denominator
+```
+
+
+
+
