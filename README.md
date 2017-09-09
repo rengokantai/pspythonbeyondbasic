@@ -37,6 +37,6 @@ with expression as x:
   body
 ```
 important: the value of ```expression.__enter__``` is bound to x, not the value of expression.
-
+exception information is passed to ```__exit__()```
 
 
