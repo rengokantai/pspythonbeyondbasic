@@ -27,5 +27,10 @@ a.denominator
 ```
 
 
+## 12. Defining Context Managers
+### 1 What is a Context Manager
+A context-manager ensures that resources are properly and automatically managed.
+
+
 
 
