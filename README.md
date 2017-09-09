@@ -39,4 +39,17 @@ with expression as x:
 important: the value of ```expression.__enter__``` is bound to x, not the value of expression.
 exception information is passed to ```__exit__()```
 
+### 3 A First Context Manager Example
+```
+class LoggingContextManager:
+  def __enter__(self):
+    return "123"
+  def __exit__(self,exc_type,exc_val):
+    return
+```
 
+```
+from lcm import *
+with LoggingContextManager() as x:
+  print(x)  #123
+```
