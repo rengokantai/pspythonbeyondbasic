@@ -31,6 +31,12 @@ a.denominator
 ### 1 What is a Context Manager
 A context-manager ensures that resources are properly and automatically managed.
 
+### 2 The Context Manager Protocol
+```
+with expression as x:
+  body
+```
+important: the value of ```expression.__enter__``` is bound to x, not the value of expression.
 
 
 
