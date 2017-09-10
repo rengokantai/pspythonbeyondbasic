@@ -58,4 +58,10 @@ with LoggingContextManager() as x:
 
 
 ### 6 __exit__() and Exception Prop
-By default ```__exit__()``` propagates exceptions thrown from the with-statement's code block
+By default ```__exit__()``` propagates exceptions thrown from the with-statement's code block.  
+
+If ```__exit__()``` returns False, the exception is propagated.  
+
+#### 01:36
+By default functions return None. None evaluates to False.  
+```__exit__()``` should never explicitly re-raise exceptions.
