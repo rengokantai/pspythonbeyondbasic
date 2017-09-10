@@ -53,3 +53,5 @@ from lcm import *
 with LoggingContextManager() as x:
   print(x)  #123
 ```
+### 5 __exit__()
+```__exit__()``` can check type for None to see if an exception was thrown
