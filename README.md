@@ -55,3 +55,7 @@ with LoggingContextManager() as x:
 ```
 ### 5 __exit__()
 ```__exit__()``` can check type for None to see if an exception was thrown
+
+
+### 6 __exit__() and Exception Prop
+By default ```__exit__()``` propagates exceptions thrown from the with-statement's code block
